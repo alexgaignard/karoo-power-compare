@@ -1,0 +1,16 @@
+[versions]
+agp = "8.6.1"
+kotlin = "2.0.0"
+coroutines = "1.8.0"
+
+[libraries]
+karoo-ext = { module = "io.hammerhead:karoo-ext", version = "1.1.9" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version = "1.13.1" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+nordic-ble-client = { module = "no.nordicsemi.kotlin.ble:client-android", version = "2.0.0-alpha02" }
+timber = { module = "com.jakewharton.timber:timber", version = "5.0.1" }
+junit = { module = "junit:junit", version = "4.13.2" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

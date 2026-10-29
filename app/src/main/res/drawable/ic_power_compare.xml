@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="38dp"
+    android:height="38dp"
+    android:viewportWidth="38"
+    android:viewportHeight="38">
+    <!-- Two lightning bolts side by side -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M11,3L4,20H10L8,35L17,15H11L14,3Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M28,3L21,20H27L25,35L34,15H28L31,3Z" />
+</vector>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Power Compare</string>
+    <string name="extension_name">Power Compare</string>
+
+    <string name="power_b">Power B</string>
+    <string name="power_b_description">Instant power from the second (BLE) power meter</string>
+    <string name="power_diff">Power Δ 3s</string>
+    <string name="power_diff_description">Meter B minus meter A, 3-second average, in watts</string>
+    <string name="power_diff_percent">Power Δ% 3s</string>
+    <string name="power_diff_percent_description">Meter B relative to meter A, 3-second average, in percent</string>
+    <string name="ride_diff_percent">Ride Power Δ%</string>
+    <string name="ride_diff_percent_description">Meter B relative to meter A over the whole ride, in percent</string>
+</resources>
