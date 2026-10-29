@@ -12,6 +12,24 @@
         icon="@drawable/ic_power_compare"
         typeId="power-b" />
     <DataType
+        description="@string/power_b_3s_description"
+        displayName="@string/power_b_3s"
+        graphical="false"
+        icon="@drawable/ic_power_compare"
+        typeId="power-b-3s" />
+    <DataType
+        description="@string/power_b_10s_description"
+        displayName="@string/power_b_10s"
+        graphical="false"
+        icon="@drawable/ic_power_compare"
+        typeId="power-b-10s" />
+    <DataType
+        description="@string/power_b_30s_description"
+        displayName="@string/power_b_30s"
+        graphical="false"
+        icon="@drawable/ic_power_compare"
+        typeId="power-b-30s" />
+    <DataType
         description="@string/power_diff_description"
         displayName="@string/power_diff"
         graphical="false"

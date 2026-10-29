@@ -10,6 +10,7 @@ A [Hammerhead Karoo](https://www.hammerhead.io/) extension to compare two power 
 | Field | What it shows |
 |---|---|
 | Power B | Instant power from meter B |
+| 3s / 10s / 30s Power B | Meter B's rolling average, like the native Karoo 3s/10s/30s Power fields |
 | Power Δ 3s | B − A in watts, 3-second average |
 | Power Δ% 3s | (B − A) / A in percent, 3-second average. Blank below 30 W |
 | Ride Power Δ% | (B − A) / A over the whole recorded ride |

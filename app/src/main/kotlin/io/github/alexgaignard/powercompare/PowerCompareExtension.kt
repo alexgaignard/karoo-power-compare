@@ -57,6 +57,24 @@ class PowerCompareExtension : KarooExtension("powercompare", BuildConfig.VERSION
         val latest = comparison.asStateFlow()
         listOf(
             PowerBDataType(extension),
+            ComparisonDataType(
+                extension,
+                DataTypeIds.POWER_B_3S,
+                latest,
+                DataType.Type.SMOOTHED_3S_AVERAGE_POWER,
+            ) { it.powerB3s },
+            ComparisonDataType(
+                extension,
+                DataTypeIds.POWER_B_10S,
+                latest,
+                DataType.Type.SMOOTHED_10S_AVERAGE_POWER,
+            ) { it.powerB10s },
+            ComparisonDataType(
+                extension,
+                DataTypeIds.POWER_B_30S,
+                latest,
+                DataType.Type.SMOOTHED_30S_AVERAGE_POWER,
+            ) { it.powerB30s },
             ComparisonDataType(extension, DataTypeIds.POWER_DIFF, latest) { it.diffWatts },
             ComparisonDataType(extension, DataTypeIds.POWER_DIFF_PERCENT, latest) { it.diffPercent },
             ComparisonDataType(extension, DataTypeIds.RIDE_DIFF_PERCENT, latest) { it.rideDiffPercent },

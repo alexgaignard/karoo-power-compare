@@ -7,6 +7,9 @@ package io.github.alexgaignard.powercompare.compare
 data class Comparison(
     val powerA: Double? = null,
     val powerB: Double? = null,
+    val powerB3s: Double? = null,
+    val powerB10s: Double? = null,
+    val powerB30s: Double? = null,
     val diffWatts: Double? = null,
     val diffPercent: Double? = null,
     val rideDiffPercent: Double? = null,

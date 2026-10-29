@@ -4,6 +4,12 @@
 
     <string name="power_b">Power B</string>
     <string name="power_b_description">Instant power from the second (BLE) power meter</string>
+    <string name="power_b_3s">3s Power B</string>
+    <string name="power_b_3s_description">Power from the second power meter, 3-second rolling average</string>
+    <string name="power_b_10s">10s Power B</string>
+    <string name="power_b_10s_description">Power from the second power meter, 10-second rolling average</string>
+    <string name="power_b_30s">30s Power B</string>
+    <string name="power_b_30s_description">Power from the second power meter, 30-second rolling average</string>
     <string name="power_diff">Power Δ 3s</string>
     <string name="power_diff_description">Meter B minus meter A, 3-second average, in watts</string>
     <string name="power_diff_percent">Power Δ% 3s</string>
